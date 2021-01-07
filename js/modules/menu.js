@@ -14,6 +14,7 @@ buttonMenu.addEventListener("click", openMenu);
 const closeMenu = (event) => {
   buttonMenu.classList.remove("active");
   headerUl.classList.remove("active");
+  body.classList.remove("active");
 };
 
 linkMenu.forEach(item => {
